@@ -1,0 +1,17 @@
+#ko {
+    color: white;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+img {
+    height: 265px;
+    width: 250px;
+    margin: auto;
+    display: block;
+}
+
+.sa {
+    background-color: #1abc9c;
+    height: 550px;
+}

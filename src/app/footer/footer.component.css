@@ -1,0 +1,24 @@
+footer {
+    background-color: var(--second-color);
+    color: white;
+}
+
+footer .card-group {
+    padding: 40px;
+}
+
+footer .card {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+footer .copyright {
+    background-color: #1A252F;
+}
+
+footer .icons i {
+    border: 1px white solid;
+    border-radius: 50%;
+    padding: 10px;
+}

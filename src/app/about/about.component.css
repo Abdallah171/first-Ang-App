@@ -1,0 +1,8 @@
+.about {
+    background-color: var(--main-color);
+    height: 550px;
+}
+
+.line {
+    background-color: white;
+}

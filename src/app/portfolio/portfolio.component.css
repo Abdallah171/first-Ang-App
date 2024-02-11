@@ -1,0 +1,42 @@
+.row .layer {
+    background-color: var(--main-color);
+    opacity: 0%;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all .5s;
+}
+
+.row .my-card:hover .layer {
+    background-color: var(--main-color);
+    opacity: 90%;
+    cursor: pointer;
+}
+
+h1 {
+    color: var(--second-color);
+}
+
+i {
+    color: var(--second-color);
+}
+
+.img-viewer-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(43, 180, 226, 0.464);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-viewer-container .img-viewer {
+    width: 30%;
+    background-color: red;
+    height: 55%;
+}
